@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/toolbarhomepage"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp"
+        android:theme="@style/ToolBarStyle">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Local Transport Guide"
+        android:textAlignment="center"
+        android:layout_below="@id/toolbarhomepage"
+        android:textColor="@color/redmixedpink"
+        android:layout_marginTop="20dp"
+        android:textSize="23sp"
+        android:id="@+id/hometext"/>
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/busmainimage"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/hometext"
+        android:id="@+id/mainbusimage"/>
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/city_spinner"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="15dp"
+        android:layout_below="@id/mainbusimage"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/spinner_background"/>
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/route_spinner"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:layout_below="@id/city_spinner"
+        android:background="@drawable/spinner_background"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Locate Bus"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:elevation="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/findusingstop"
+        android:id="@+id/locatebusbutton"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Find your Stop"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:elevation="30dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/findusingstop"/>
+
+
+
+
+
+</RelativeLayout>

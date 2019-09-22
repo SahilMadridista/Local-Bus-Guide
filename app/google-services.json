@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "662472121009",
+    "firebase_url": "https://local-bus-details.firebaseio.com",
+    "project_id": "local-bus-details",
+    "storage_bucket": "local-bus-details.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662472121009:android:b3d3bf4c2282f8bca06090",
+        "android_client_info": {
+          "package_name": "com.example.localbustransport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662472121009-2hlfroihm4bj0m4tf9taoh8v1m3jugnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.localbustransport",
+            "certificate_hash": "0324f856462be6d4f61b03f1941ce3596a7d0aac"
+          }
+        },
+        {
+          "client_id": "662472121009-tg8j2ovk9m793o1oltbrncu4240hm1je.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJvMxFu5lCv95uW41m4UufKkQC_-0yJKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662472121009-tg8j2ovk9m793o1oltbrncu4240hm1je.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

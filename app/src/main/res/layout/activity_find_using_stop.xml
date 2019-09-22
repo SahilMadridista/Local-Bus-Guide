@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindUsingStop">
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/toolbarfindbystop"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp"
+        android:theme="@style/ToolBarStyle">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/spinner_background"
+        android:layout_below="@id/toolbarfindbystop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="Bus Stop Name"
+        android:paddingLeft="15dp"
+        android:gravity="center"
+        android:textColor="@color/redmixedpink"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text="Search"
+        android:background="@color/redmixedpink"
+        android:textColor="@color/white"
+        android:id="@+id/findbystopbutton"
+        />
+
+
+
+
+
+</RelativeLayout>

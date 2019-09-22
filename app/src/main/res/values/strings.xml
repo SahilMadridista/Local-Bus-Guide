@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Local Bus Transport</string>
+
+    <string name="navigation_drawer_open">Open navigation Drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation Drawer</string>
+
+
+    <string-array name="route_numbers">
+
+        <item>Select a route</item>
+
+        <item>Route 1</item>
+
+        <item>Route 2</item>
+
+        <item>Route 3</item>
+
+
+    </string-array>
+
+    <string-array name="city_names">
+
+        <item>Select a city</item>
+
+        <item>Delhi</item>
+
+        <item>Lucknow</item>
+
+    </string-array>
+
+</resources>
