@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bus_stop_text"
         android:textSize="20sp"
-        android:layout_centerHorizontal="true"
-        android:text="Bus Stop Name"/>
+        android:text="Bus Stop Name : "
+        android:textColor="@color/black"/>
 
 </RelativeLayout>
